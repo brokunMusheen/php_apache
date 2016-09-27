@@ -11,6 +11,9 @@ RUN apt-get update && apt-get install -y \
 # Install Apache Modules
 RUN a2enmod rewrite
 
+# Install Composer
+COPY composer-1.2.1.phar /usr/local/bin/composer
+
 COPY apache2-foreground /usr/local/bin/
 WORKDIR /var/www/html
 
