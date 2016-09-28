@@ -4,6 +4,7 @@ FROM ubuntu:16.04
 RUN apt-get update && apt-get install -y \
         apache2 \
         php \
+        git \
         libapache2-mod-php \
         curl \
         php-curl \
