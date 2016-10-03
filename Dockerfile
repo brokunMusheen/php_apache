@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
         php5.6-mbstring \
         php5.6-gettext \
         php5.6-xml \
+        php5.6-zip \
         php5.6-mcrypt
 
 # Install Apache Modules
