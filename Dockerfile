@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
         php-mbstring \
         php-gettext \
         php-xml \
+        php-zip \
         php-mcrypt
 
 # Install Apache Modules
