@@ -8,12 +8,13 @@ RUN apt-get update && apt-get install -y \
         libapache2-mod-php \
         curl \
         php-curl \
+        php-gettext \
         php-mysql \
         php-mbstring \
-        php-gettext \
+        php-mcrypt \
+        php-soap \
         php-xml \
-        php-zip \
-        php-mcrypt
+        php-zip
 
 # Install Apache Modules
 RUN a2enmod rewrite
