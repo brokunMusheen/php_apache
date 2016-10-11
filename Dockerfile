@@ -16,12 +16,13 @@ RUN apt-get update && apt-get install -y \
         libapache2-mod-php5.6 \
         curl \
         php5.6-curl \
-        php5.6-mysql \
-        php5.6-mbstring \
         php5.6-gettext \
+        php5.6-mbstring \
+        php5.6-mcrypt \
+        php5.6-mysql \
+        php5.6-soap \
         php5.6-xml \
-        php5.6-zip \
-        php5.6-mcrypt
+        php5.6-zip
 
 # Install Apache Modules
 RUN a2enmod rewrite
