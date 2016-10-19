@@ -18,6 +18,7 @@ RUN apt-get install -y \
         libapache2-mod-php5.6 \
         curl \
         php5.6-curl \
+        php5.6-gd \
         php5.6-gettext \
         php5.6-mbstring \
         php5.6-mcrypt \
