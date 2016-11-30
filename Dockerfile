@@ -24,6 +24,7 @@ RUN apt-get install -y \
         php5.6-mcrypt \
         php5.6-mysql \
         php5.6-soap \
+        php5.6-sqlite3 \
         php5.6-xdebug \
         php5.6-xml \
         php5.6-zip
