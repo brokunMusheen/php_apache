@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
         php-mbstring \
         php-mcrypt \
         php-soap \
-        php-sqlite \
+        php-sqlite3 \
         php-xml \
         php-zip
 
